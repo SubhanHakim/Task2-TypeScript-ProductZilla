@@ -92,7 +92,7 @@ const pembagian = (nilai1: number, nilai2: number): number => {
   return nilai1 / nilai2;
 };
 
-console.log(penjumlahan(2, 4));
-console.log(pengurangan(2, 4));
-console.log(perkalian(2, 4));
-console.log(pembagian(2, 4));
+console.log("Penjumlahan", penjumlahan(2, 4));
+console.log("Pengurangan", pengurangan(2, 4));
+console.log("Perkalian", perkalian(2, 4));
+console.log("Pembagian", pembagian(2, 4));
